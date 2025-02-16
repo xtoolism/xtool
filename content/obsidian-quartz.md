@@ -2,7 +2,7 @@
 comment: true
 title: 数字花园建造指南之 quartz
 created: 2025-02-15 21:02:00
-modified: 2025-02-16 15:02:22
+modified: 2025-02-16 15:02:50
 tags: [obsidian, 双向链接, 图谱知识库, 静态博客]
 draft: false
 ---
@@ -22,7 +22,9 @@ draft: false
 * 🔖 **一句话定义**：一款开箱即用、高度可定制的静态网站生成器，专为构建数字花园和知识库设计，支持 Markdown 快速转换为功能完整的网站。
 * 🌐 **官方地址**：[quartz项目主页](https://github.com/jackyzha0/quartz)
 * 👨**维护现状**：活跃，[最近更新](https://github.com/jackyzha0/quartz/commits/v4/) 于 2025-02-11，社区贡献频繁。
-* 📌 **核心价值**：`知识图谱可视化`+`零配置启动` + `深度扩展自由`
+* 📌 **核心价值**：`知识图谱可视化`+`零配置启动` + `深度扩展自由`  
+
+![[静态博客工具之quartz-1739688694561.jpeg]]
 ## 场景定位
 ### 推荐人群
 * Obsidian/Logseq 用户想打造个人知识门户
@@ -55,6 +57,9 @@ draft: false
 # 下载或者fork
 git clone https://github.com/jackyzha0/quartz.git
 cd quartz
+
+# 注意: node 版本需要大于 19,可以使用 nvm 安装最新的 node 版本即可
+nvm use v22.14.0
 npm i
 npx quartz create
 
@@ -68,12 +73,55 @@ npx quartz build --serve
 # 提交到git仓库后,会自动deploy
 npx quartz sync
 ```
+### github 自动部署
+配置: `.github/workflows/deploy.yaml`
+```yml
+name: Deploy site to GitHub Pages
 
-> 注意: node 版本需要大于 19,可以使用 nvm 安装最新的 node 版本即可
+on:
+  push:
+    branches:
+      - v4
 
-### 界面速览
+permissions:
+  contents: read
+  pages: write
+  id-token: write
 
-![[静态博客工具之quartz-1739688694561.jpeg]]
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-22.04
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0 # Fetch all history for git info
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Install Dependencies
+        run: npm ci
+      - name: Build Quartz
+        run: npx quartz build
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: public
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+```
 
 ## 深度评测
 
