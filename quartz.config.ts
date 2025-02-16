@@ -9,7 +9,7 @@ import * as Plugin from "./quartz/plugins"
 const config: QuartzConfig = {
   configuration: {
     pageTitle: "🦾 极客工具",
-    pageTitleSuffix: "Build Your Toolkit",
+    pageTitleSuffix: " 分享优秀开源项目",
     enableSPA: true,
     enablePopovers: true,
     analytics: {
