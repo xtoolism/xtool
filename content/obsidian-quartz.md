@@ -2,7 +2,7 @@
 comment: true
 title: 数字花园建造指南之 quartz
 created: 2025-02-15 21:02:00
-modified: 2025-02-16 15:02:50
+modified: 2025-02-16 16:02:33
 tags: [obsidian, 双向链接, 图谱知识库, 静态博客]
 draft: false
 ---
@@ -14,7 +14,7 @@ draft: false
 
 ✨【颠覆认知的 3 大革新】
 1. 零配置开箱即用：传统 Hexo/Hugo 需要配置主题 + 部署 +SEO，Quartz 用 `npx quartz create` 一键生成完整站点
-2. 知识图谱可视化：自动解析 [[双向链接]]，生成思维导图式导航
+2. 知识图谱可视化：自动解析双向链接，生成思维导图式导航
 3. 毫秒级写作体验：双 esbuild+Lightning CSS 实现「保存即刷新」的沉浸式创作
 
 下面开始一起告别碎片化学习：用 Quartz 构建可进化的神经网络式知识体系
