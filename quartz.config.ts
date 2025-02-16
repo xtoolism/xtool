@@ -8,7 +8,7 @@ import * as Plugin from "./quartz/plugins"
  */
 const config: QuartzConfig = {
   configuration: {
-    pageTitle: "🦾 XTool",
+    pageTitle: "🦾 极客工具",
     pageTitleSuffix: "Build Your Toolkit",
     enableSPA: true,
     enablePopovers: true,
