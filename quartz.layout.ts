@@ -36,9 +36,9 @@ const comment=Component.Comments({
   provider: 'giscus',
   options: {
     repo: 'xtoolism/xtool',
-    repoId: 'R_kgDON6PPKw',
+    repoId: 'R_kgDON6P1zw',
     category: 'Announcements',
-    categoryId: 'DIC_kwDON6PPK84CnAex'
+    categoryId: 'DIC_kwDON6P1z84CnAii'
   }
 })
 
