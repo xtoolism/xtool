@@ -1,29 +1,24 @@
 ---
 comment: true
-title: 数字花园建造指南之 quartz
+title: Obsidian 知识图谱发布工具之 Quartz
 created: 2025-02-15 21:02:00
-modified: 2025-02-17 21:02:14
+modified: 2025-02-17 22:02:27
 tags: [obsidian, 双向链接, 图谱知识库, 静态博客]
 draft: false
 ---
 
-# 数字花园建造指南之 quartz
-> 📌 数字花园建造指南 | 低代码知识发布工具
+# Obsidian 知识图谱发布工具之 Quartz
+> 🔖 Quartz 是一款开箱即用、高度可定制的静态网站生成器，专为构建双链笔记/知识图谱形式的和知识库设计，支持 Markdown 快速转换为功能完整的网站
 
 作为一名 Obsidian 深度用户，我一直在寻找将数字花园「一键绽放」的解决方案。今天测评的 Quartz，让我找到了知识图谱「写即发布」的自动方案！
-
-✨【Quartz 的 2 大特色】
-1. 零配置开箱即用：传统 Hexo/Hugo 需要配置主题 + 搜索 +SEO，Quartz 一键生成完整站点
-2. 知识图谱可视化：自动解析双向链接，生成思维导图式导航
-
-下面开始一起看 Quartz 是如何构建可进化的知识体系
 ## 项目速览
-* 🔖 **一句话定义**：一款开箱即用、高度可定制的静态网站生成器，专为构建数字花园和知识库设计，支持 Markdown 快速转换为功能完整的网站。
-* 🌐 **官方地址**：[quartz项目主页](https://github.com/jackyzha0/quartz)
-* 👨 **维护现状**：活跃，[最近更新](https://github.com/jackyzha0/quartz/commits/v4/) 于 2025-02-11，社区贡献频繁。
-* 📌 **核心价值**：`知识图谱可视化`+`零配置启动` + `深度扩展自由`
+* 🌐 **官方地址**：[github-quartz](https://github.com/jackyzha0/quartz)
+* 👨 **维护现状**：8k star，项目活跃，[最近更新](https://github.com/jackyzha0/quartz/commits/v4/) 于 2025-02-11。
+* 📌 **核心价值**：
+	* 零配置开箱即用：传统 Hexo/Hugo 需要配置主题 + 搜索 +SEO，Quartz 一键生成站点
+	* 知识图谱可视化：自动解析双向链接，生成思维导图式导航
 
-![[静态博客工具之quartz-1739688694561.jpeg]]
+![[obsidian-quartz-1739688694561.jpeg]]
 ## 场景定位
 ### 推荐人群
 * 强烈建议 Obsidian/Logseq 类双链笔记用户使用
