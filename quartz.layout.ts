@@ -49,8 +49,7 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [comment],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/xtoolism/xtool",
-      "Community": "https://github.com/orgs/xtoolism/discussions",
+      "极客工具 @2025 ": "https://xtoolism.github.io/xtool"
     },
   }),
 }
