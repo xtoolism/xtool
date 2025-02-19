@@ -2,7 +2,7 @@
 comment: true
 created: 2025-02-15 16:02:00
 updated: 2025-02-15 12:47:24
-modified: 2025-02-19 20:02:81
+modified: 2025-02-19 22:02:82
 title: 极客工具
 ---
 
@@ -12,4 +12,4 @@ title: 极客工具
 
 >  Open Source, Super You.
 
-![logo|256x256](logo.jpeg)
+![[logo.jpeg]]
