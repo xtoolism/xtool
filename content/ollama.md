@@ -1,13 +1,13 @@
 ---
 comment: true
-title: NAS+Ollama 打造个人专属 DeepSeek AI 实验室
+title: NAS+Ollama 打造本地化 DeepSeek AI 实验室
 created: 2025-02-18 22:02:00
-modified: 2025-02-19 12:02:53
+modified: 2025-02-19 12:02:62
 tags: [AI, DeepSeek, NAS]
 draft: false
 ---
 
-# NAS+Ollama 打造个人专属 DeepSeek AI 实验室
+# NAS+Ollama 打造本地化 DeepSeek AI 实验室
 
 基于 NAS 私有化部署 Ollama 和 open-webui 开源框架，打造低成本私有 AI 实验室
 

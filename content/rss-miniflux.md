@@ -1,15 +1,15 @@
 ---
 comment: true
-title: RSS 信息聚合工具之 Miniflux
+title: 极简 RSS 信息聚合工具之 Miniflux
 created: 2025-02-15 21:02:00
-modified: 2025-02-19 12:02:22
+modified: 2025-02-19 20:02:88
 tags: [rss]
-draft: true
+draft: false
 ---
 
-# RSS 信息聚合工具之 Miniflux
->  🔖 Miniflux 是一款极简主义、开源且自托管的 RSS 阅读器，专注于高效信息聚合与隐私保护，支持多平台订阅和全文抓取。
-
+# 极简 RSS 信息聚合工具之 Miniflux
+>  🔖 Miniflux 是一款极简主义、开源且自托管的 RSS 阅读器，专注于高效信息聚合与隐私保护，支持多平台订阅和全文抓取。  
+![[rss-miniflux-1739954806293.jpeg]]
 ## 项目速览
 * 🌐 **官方地址**：[github-miniflux-v2](https://github.com/miniflux/v2) 
 * 👨 **维护现状**：7.3k star , 活跃维护，版本迭代稳定（最新版本 v2.0.41）
@@ -69,23 +69,26 @@ services:
     volumes:
       - ./data:/var/lib/postgresql/data
 ```
- * 启动命令: docker-compose up -d
+ * 启动命令: `docker-compose up -d`
  * 首次运行需执行数据库迁移命令 `docker exec -it 容器名 /usr/bin/miniflux -migrate`
 ### Miniflux 客户端
 > android 版本
 1. [Fluent Reader](https://github.com/yang991178/fluent-reader-lite)
 2. [FeedMe](https://github.com/seazon/FeedMe)
 3. [Read You](https://github.com/Ashinch/ReadYou)  
+
 上面几个, ReadYou 的界面,最美,可是我连接 nas 的 FeverApi 有点卡,只好用 Fluent Reader, 不过 android 版本的 Fluent Reader, 也很丝滑.
 
 ## 深度评测
-比较:  
-* tinytiny rss  
-* fresh rss
-* inoreader: 需要墙
-* miniflux
----
 
+| 阅读器               | 功能特点             | 速度表现                     | 颜值设计       | 上手难度          | 价格策略    |
+| ----------------- | ---------------- | ------------------------ | ---------- | ------------- | ------- |
+| **MiniFlux**      | 轻量高效/多用户支持       | 极快（Persisted Storage 加速） | 极简风格/内容聚焦  | 极易（一键部署）      | 免费开源    |
+| **Tiny Tiny RSS** | 主题定制/社交分享        | 中等（依赖服务器优化）              | 原生粗糙/需手动美化 | 中等（需配置）       | 免费开源    |
+| **Fresh RSS**     | 响应式设计/缓存优化       | 较快（智能缓存机制）               | 清新现代/主题可选  | 中等（Docker 部署） | 免费开源    |
+| **Inoreader**     | 离线阅读/智能过滤/OCR 识别 | 云端加速（大规模优化）              | 功能密集/界面拥挤  | 极易            | 分免费和收费版 |
+
+📌 **总结**  
 Miniflux 像一把瑞士军刀中的锋利刀刃——没有华丽装饰，但精准解决 " 高效获取信息 " 的核心需求。适合追求「数字极简主义」的硬核用户，
 
 慎入者亦可尝试 Docker 版浅尝辄止。  
