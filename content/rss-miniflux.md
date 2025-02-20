@@ -2,8 +2,8 @@
 comment: true
 title: 极简 RSS 信息聚合工具之 Miniflux
 created: 2025-02-15 21:02:00
-modified: 2025-02-19 20:02:88
-tags: [rss]
+modified: 2025-02-20 20:02:34
+tags: [RSS]
 draft: false
 ---
 

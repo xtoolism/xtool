@@ -2,8 +2,8 @@
 comment: true
 title: Obsidian 知识图谱发布工具之 Quartz
 created: 2025-02-15 21:02:00
-modified: 2025-02-17 22:02:27
-tags: [obsidian, 双向链接, 图谱知识库, 静态博客]
+modified: 2025-02-20 20:02:81
+tags: [Obsidian, 双向链接, 图谱知识库, 静态博客]
 draft: false
 ---
 
