@@ -2,7 +2,7 @@
 comment: true
 title: NAS+Ollama 打造本地化 DeepSeek AI 实验室
 created: 2025-02-18 22:02:00
-modified: 2025-02-19 12:02:62
+modified: 2025-02-21 08:02:49
 tags: [AI, DeepSeek, NAS]
 draft: false
 ---
