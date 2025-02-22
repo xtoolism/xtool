@@ -1,19 +1,20 @@
 ---
 comment: true
-title: ""
+title: 我的工具库 -2025
 created: 2025-02-20 20:02:00
-modified: 2025-02-22 21:02:02
+modified: 2025-02-22 23:02:40
 tags: [NAS, Obsidian, RSS, Ubuntu, 工具]
 draft: false
+aliases: [我的工具库 -2025]
 ---
 
 ![[xtool-2025-1740054124101.jpeg]]
 
-## 我的工具库 -2025
+# 我的工具库 -2025
 
 > 分享全栈开发的知识管理工具实践，用 obsidian+ai 构建「第二大脑」
 
-### 我的知识管理经历
+## 我的知识管理经历
 
 从 2008 年开始写第一行 HelloWorld 代码，牛马之路就一发不可收拾…
 
@@ -43,7 +44,7 @@ draft: false
 
 用别的笔记软件，如果你有个好想法但工具不支持，那只能默默叹气，无可奈何。但 Obsidian 不一样，它就像个开源乐园，你可以去社区淘插件，甚至自己动手写一个。
 
-### 我的知识管理流程
+## 我的知识管理流程
 
 1. 知识收集：rss（miniflux）
 2. 知识加工：obsidian
@@ -51,11 +52,11 @@ draft: false
 
 > 这期写工具，后面专门写 obsidian 的系列来串工作流程
 
-### 知识管理工具
+## 知识管理工具
 
 我现在每天打开电脑都是从 obsidian 开始，开机 obsidian 自动启动并打开历史未完成的待办，所有输入都以 obsidian 作为输出。
 
-#### obsidian 的插件列表
+### obsidian 的插件列表
 
 1. 同步：obsidian livesync+couchdb
 2. 备份：git
@@ -67,7 +68,7 @@ draft: false
 
 > 其实还安装了很多，列出来的是贯穿日常工作流的核心插件，后续会专门详细写个人工作流与 obsidian 的实践
 
-#### 知识收集工具
+### 知识收集工具
 
 1. rss 阅读
 	* 服务端：miniflux
@@ -76,9 +77,9 @@ draft: false
 3. 碎片化：BiliBili,YoutubeBox,小红书，微博
 4. 语言打卡：多邻国，粤语，英语，打了 533 天，继续刚把得
 
-### 开发工具
+## 开发工具
 
-#### 开发硬件
+### 开发硬件
 
 1. 笔记本：thinkpad-t14，16 核 32G
 2. NAS：某宝捡垃圾组的
@@ -89,7 +90,7 @@ draft: false
 4. 路由器：京东无线云
 5. 语音助手：天猫精灵
 
-#### 开发软件
+### 开发软件
 
 1. 技术栈
 	* 语言：java，kotlin，python，javascript，shell
@@ -100,9 +101,9 @@ draft: false
 	* jetbrain-datagrip
 	* visual studio code
 
-### 操作系统
+## 操作系统
 
-#### ubuntu
+### ubuntu
 
 1. 系统制作：etcher(linux),woe-usb(windows)
 2. 快捷指令：utools
@@ -117,7 +118,7 @@ draft: false
 11. UML 设计：staruml
 12. 邮件客户端：thunderbird
 
-### NAS 系统
+## NAS 系统
 
 1. nas 系统：truenas scale
 2. nas 客户端：serverbox
@@ -129,7 +130,7 @@ draft: false
 8. 密码管理：vaultwarden
 9. 动态 DNS：duckdns
 
-#### google chrome
+### google chrome
 
 1. Proxy SwitchOmega
 2. AdBlock
@@ -138,7 +139,7 @@ draft: false
 	* 采集知识到 obsidian 的未归档目录，定时阅读后纳入知识体系
 	* 可以配置 AI 自动总结来提高阅读效率
 
-### 其他工具
+## 其他工具
 
 1. 密码管理：vaultwarden 客户端 keyguard
 2. 二阶段密码管理：aegis
