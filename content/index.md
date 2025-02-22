@@ -2,7 +2,7 @@
 comment: true
 created: 2025-02-15 16:02:00
 updated: 2025-02-15 12:47:24
-modified: 2025-02-21 09:02:35
+modified: 2025-02-21 19:02:47
 title: 极客工具
 ---
 
@@ -14,5 +14,5 @@ title: 极客工具
 
 ![[index-logo.jpeg]]
 
-> wechat  
+> WeChat  
 ![[index-wechat.jpeg|273x273]]  
