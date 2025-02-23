@@ -2,7 +2,7 @@
 comment: true
 title: 公众号发布工作流：搞定自动传图和一键排版
 created: 2025-02-22 10:02:00
-modified: 2025-02-22 23:02:85
+modified: 2025-02-23 10:02:11
 tags: [Obsidian, OSS, 公众号]
 aliases: [公众号发布工作流：搞定自动传图和一键排版]
 ---
@@ -22,9 +22,7 @@ aliases: [公众号发布工作流：搞定自动传图和一键排版]
 ### 阿里云 oss 在线图床
 
 1. 注册阿里云帐号，生成 AccessKey 获取 AccessKey ID 和 AccessKey Secret
-2. OSS 服务配置
-	* 新增 bucket
-	* 权限控制 - 设置为公共读
+2. OSS 服务配置： 新增 bucket，权限控制 - 设置为公共读
 3. 阿里云 OSS 服务收费情况：选本地冗余存储的标准型，上传流量是免费的，外网访问是忙时 5 毛钱 1GB。这个方案只需要用临时 OSS 上传，将本地文件地址，转成公网可访问的图片链接。发布后，素材都可以从 oss 删除，文件实际都是在本地，所以一年下来也花不了几块钱。
 ![[obsidian-oss服务价格明细-174020497357.png|736x401]]
 
@@ -59,12 +57,7 @@ obsidian 安装插件 [obsidian-image-upload-toolkit](https://github.com/addozha
 ## 🛠️ 极简四步操作流
 
 1. **Obsidian 写作**：在 obsidian 以 markdown 格式完成作品编写，随意插入本地图片；
-2. **插件传图咒语**：在 obsidian 中，执行 `ctrl+p` 唤醒指令输入框，输入 `Image Upload Toolkit: publish page`，插件会自动上传图片到 OSS，并且复制新的内容到粘贴版，粘贴板的图片路径都会从相对路径变成 oss 的绝对路径，比如：
-
-	```bash
-    # 魔法时刻
-    ![本地图片](logo.jpg) → ![云端图片](https://oss.com/2024/logo.jpg)
-	```
+2. **插件传图咒语**：在 obsidian 中，执行 `ctrl+p` 唤醒指令输入框，输入 `Image Upload Toolkit: publish page`，插件会自动上传图片到 OSS，并且复制新的内容到粘贴版，粘贴板的图片路径都会从相对路径变成 oss 的绝对路径。
 
 	> 当你的文章有 10 来张图片的时候，复制到公众号里，本地图片在公众号里玩起集体隐身术，你就体会到这个插件有多香了。
 
