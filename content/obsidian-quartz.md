@@ -1,20 +1,24 @@
 ---
 comment: true
-title: Obsidian 知识图谱发布工具之 Quartz
+title: 一键发布知识图谱：Obsidian 与 Quartz 的高效协作
 created: 2025-02-15 21:02:00
-modified: 2025-02-22 23:02:15
+modified: 2025-02-24 21:02:29
 tags: [Obsidian, 双向链接, 图谱知识库, 静态博客]
 draft: false
-aliases: [Obsidian 知识图谱发布工具之 Quartz]
+aliases: ["双链笔记的自动发布：Obsidian+Quartz ", Obsidian 知识图谱发布工具之 Quartz, 一键发布知识图谱：Obsidian 与 Quartz 的高效协作, 双链笔记的工程化部署：基于 Obsidian 与 Quartz 的自动化实践, 双链笔记的自动发布：Obsidian+Quartz 的解决方案]
 ---
 
-# Obsidian 知识图谱发布工具之 Quartz
+![[obsidian-quartz-1740402084263.jpeg]]
 
-> 🔖 Quartz 是一款开箱即用、高度可定制的静态网站生成器，专为构建双链笔记/知识图谱形式的和知识库设计，支持 Markdown 快速转换为功能完整的网站
+# 一键发布知识图谱：Obsidian 与 Quartz 的高效协作
 
-作为一名 Obsidian 深度用户，我一直在寻找将数字花园「一键绽放」的解决方案。今天测评的 Quartz，让我找到了知识图谱「写即发布」的自动方案！
+>作为一名 Obsidian 深度用户，我一直在寻找将数字花园「一键绽放」的解决方案。今天测评的 Quartz，让我找到了知识图谱「写即发布」的自动方案！
+>
+> Obsidian 手搓知识图谱，Quartz 承包华丽变身。
 
 ## 项目速览
+
+> 🔖 Quartz 是一款开箱即用、高度可定制的静态网站生成器，专为构建双链笔记/知识图谱形式的和知识库设计，支持 Markdown 快速转换为功能完整的网站。
 
 * 🌐 **官方地址**：[github-quartz](https://github.com/jackyzha0/quartz)
 * 👨 **维护现状**：8k star，项目活跃，[最近更新](https://github.com/jackyzha0/quartz/commits/v4/) 于 2025-02-11。
@@ -58,8 +62,8 @@ aliases: [Obsidian 知识图谱发布工具之 Quartz]
 
 ### 学习曲线
 
-* 配置复杂度评级：⭐️ ( 有 git,node 环境,1 分钟就能跑起来 )
-* [quartz](https://quartz.jzhao.xyz/) 官方文档完备
+* 置复杂度评级：⭐️ ( 有 git,node 环境,1 分钟就能跑起来 )
+* [quartz](https://quartz.jzhao.xyz/) 官方文档非常完备
 * 兼容 Roam,Hugo,Obsidian,Mermaid 等 markdown 语法
 * 有 docker 环境支持
 
@@ -92,27 +96,28 @@ npx quartz sync
 
 参考 [github page官方文档](https://docs.github.com/zh/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) 配置, 或者 quartz 官方文档 [hosting-github pages](https://quartz.jzhao.xyz/hosting#github-pages)
 
-也可以参考极客工具项目  <https://github.com/xtoolism/xtool>  ,  
+也可以参考我的 `极客工具` 项目  <https://github.com/xtoolism/xtool>  ,  
 生成的 github page 为 <https://xtoolism.github.io/xtool>
+
+> `极客工具 XTool` 公众号的文章都是在 obsidian 本地写好，然后执行 `git commit-and-sync`，github action 会自动执行博客的部署更新
 
 ## 深度评测
 
 💎【知识管理范式革命】  
 传统笔记是信息坟墓，而 Quartz+Obsidian 是认知跃迁的火箭！实测对比三大差异：
 
-| 工具维度     | Evernote/OneNote 🗃️ | Obsidian+Quartz 🧠 |
-| -------- | -------------------- | ------------------ |
-| **信息结构** | 线性文件夹                | 神经元网状图谱            |
-| **知识复用** | 手动搜索                 | [[双向链接]] 自动关联      |
-| **价值延伸** | 静态存储                 | RAG+ 向量数据库驱动 AI 对话 |
-| **知识共享** | 手动发布                 | 自动发布               |
+| 工具维度     | 印象笔记/有道云笔记/Notion 🗃️ | Obsidian+Quartz 🧠 |
+| -------- | --------------------- | ------------------ |
+| **信息结构** | 线性文件夹                 | 网状知识图谱             |
+| **知识复用** | 手动搜索                  | [[双向链接]] 自动关联      |
+| **价值延伸** | 远程存储                  | 本地文件 AI 对话         |
+| **知识共享** | 手动发布                  | 一键发布               |
 
-* 学习不是信息的简单堆砌，而是将零散的知识点编织成网，构建自己的知识体系！🌟
-* 在 AI 时代，我们可以打造一个智能知识库：用 AI 提取知识点，知识间的关联自动建立，形成一张完整的知识图谱！⚡
-* Obsidian+Quartz 的组合, 让你无压力输出, 渐进的构建自己的超级外脑！🚀
+⚡ **【有知识图谱的人，AI 才不是 Siri】**  
+小白使唤 AI：  
+「帮我写篇经济课作业」→ 得到 ChatGPT 牌维基百科  
+你的知识库使唤 AI：  
+「结合我上周链的《泡沫经济史》+《龙虾社交学》→ 生成一份《2023 奶茶店暴雷预警报告》，梗用库里的蜜雪冰城段子」  
+（看见没？你喂给 AI 的关联越毒，它吐的答案越骚）
 
----
-
-⚠️ 血泪提示：  
-慎用 Obsidian+Quartz 这俩的组合！  
-你会无法忍受其他笔记工具，就像体验过自动驾驶再也回不去手动挡…
+跑题了，Obsidian 大法好，AI 也香，最后用 Quartz 发布给大伙儿都知道就更美了。
