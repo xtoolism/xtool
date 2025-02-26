@@ -1,10 +1,12 @@
 ---
 comment: true
-title: 公众号发布工作流：搞定自动传图和一键排版
-created: 2025-02-22 10:02:00
+draft: true
 modified: 2025-02-23 10:02:11
-tags: [Obsidian, OSS, 公众号]
+title: 公众号发布工作流：搞定自动传图和一键排版
 aliases: [公众号发布工作流：搞定自动传图和一键排版]
+tags: [Obsidian, OSS, 公众号]
+created: 2025-02-22T10:02:00
+updated: 2025-02-26T10:50:03
 ---
 
 ![[wechat-publish-1740238783769.jpeg]]
@@ -71,12 +73,12 @@ obsidian 安装插件 [obsidian-image-upload-toolkit](https://github.com/addozha
 
 ## 💡 老司机经验包
 
-*  **OSS 省钱诀窍**：发布后及时清空 Bucket，只当临时中转站
-*  **防坑指南**：Obsidian 插件配置时，Bucket 名称带地域后缀（如 oss-cn-hangzhou）
-*  **安全提醒**：自建编辑器数据存本地，敏感内容更放心
+* **OSS 省钱诀窍**：发布后及时清空 Bucket，只当临时中转站
+* **防坑指南**：Obsidian 插件配置时，Bucket 名称带地域后缀（如 oss-cn-hangzhou）
+* **安全提醒**：自建编辑器数据存本地，敏感内容更放心
 
-⏳ **时间账本**：  
-过去：传图 10 分钟 + 调格式 20 分钟 → 现在：3 分钟全自动搞定  
+⏳ **时间账本**：
+过去：传图 10 分钟 + 调格式 20 分钟 → 现在：3 分钟全自动搞定
 省下的时间，够你写完下一篇 10W+ 的选题！
 
 本文的工作流是解决了微信公众号的图床和排版的效率问题，对只做公众号是够了。

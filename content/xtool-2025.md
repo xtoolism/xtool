@@ -5,8 +5,8 @@ modified: 2025-02-22 23:02:40
 title: 我的工具库 -2025
 aliases: [我的工具库 -2025]
 tags: [NAS, Obsidian, RSS, Ubuntu, 工具]
-created: 2025-02-20 20:02:00
-updated: 2025-02-25 09:50:06
+created: 2025-02-20T20:02:00
+updated: 2025-02-26T10:48:43
 ---
 
 ![[xtool-2025-1740054124101.jpeg]]

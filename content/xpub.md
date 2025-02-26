@@ -1,11 +1,12 @@
 ---
 comment: true
+draft: true
 modified: 2025-02-24 09:02:86
 title: 全平台自动化发布工具避坑指南
 aliases: [全平台自动化发布工具避坑指南]
 tags: [RPA, 新媒体运营, 自动化发布]
-created: 2025-02-23 13:02:00
-updated: 2025-02-25 09:49:57
+created: 2025-02-23T13:02:00
+updated: 2025-02-26T10:48:41
 ---
 
 ![[xpub-1740316786665.jpeg]]
@@ -69,7 +70,8 @@ WechatSync 获取的当前浏览器登录的认证账号
 2. [蚁小二](https://www.yixiaoer.cn/)： 60+ 媒体平台支持图文、视频、短内容一键发布；
 3. [易媒助手](https://yimeizhushou.com/vip.html)：支持 60+ 主流新媒体平台；
 4. [新榜小豆芽](https://d.newrank.cn/)：一站式管理 50+ 自媒体平台账号；
-5. [墨滴](https://product.mdnice.com/) 的 MarkdownNice：浏览器插件实现，支持平台较少；
+5. [聚媒通](https://jumeitong.sizhensoft.cn/p/price.html): 自动回复
+6. [墨滴](https://product.mdnice.com/) 的 MarkdownNice：浏览器插件实现，支持平台较少；
 ![[xpub-1740311793677.jpeg]]
 
 ### 收费情况
