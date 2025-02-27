@@ -1,18 +1,19 @@
 ---
-draft: true
+draft: false
 title: 我的 Obsidian 插件 - 2025
 aliases: [obsidian 插件, 我的 obsidian 插件, 我的 Obsidian 插件, 我的 Obsidian 插件 - 2025]
-tags: []
+tags: [Obsidian]
 created: 2025-02-24T09:14:30
-updated: 2025-02-27T21:08:52
+updated: 2025-02-27T21:51:24
 ---
 
 # 我的 Obsidian 插件 - 2025
 ![[obsidian-plugins-image-20250227.png]]
-在之前的系列文章中，我探讨了Obsidian的核心理念（[当 Obsidian 遇见大学之道](https://mp.weixin.qq.com/s/VFvP_c9UHdPUql75oQVVHg)）、知识管理方法（[从碎片到体系](https://mp.weixin.qq.com/s/kJinvC8za5P_57ZAboHgbg)）、[自动传图和一键排版方法](https://mp.weixin.qq.com/s/RLiGAkef_w1w-SxLb51SlQ)以及发布技巧（[一键发布知识图谱](https://mp.weixin.qq.com/s/bOny9mGBuCNgwMXG-3_D0A)）。
+在之前的系列文章中，我探讨了 Obsidian 的核心理念（[当 Obsidian 遇见大学之道](https://mp.weixin.qq.com/s/VFvP_c9UHdPUql75oQVVHg)）、知识管理方法（[从碎片到体系](https://mp.weixin.qq.com/s/kJinvC8za5P_57ZAboHgbg)）、[自动传图和一键排版方法](https://mp.weixin.qq.com/s/RLiGAkef_w1w-SxLb51SlQ) 以及发布技巧（[一键发布知识图谱](https://mp.weixin.qq.com/s/bOny9mGBuCNgwMXG-3_D0A)）。
 
-本文是当然也是在Obsidian里面编写的，这期分享下我在Obsidian中安装的插件
+本文是当然也是在 Obsidian 里面编写的，这期分享下我在 Obsidian 中安装的插件
 ![[obsidian-plugins-1.png|1080x1007]]
+
 ## 工作流
 * 待办管理：[[obsidian-tasks]]
 * 待办管理 - 时间线视图：[tasks-calendar-wrapper](obsidian://show-plugin?id=tasks-calendar-wrapper)
@@ -74,8 +75,8 @@ updated: 2025-02-27T21:08:52
 
 ---
 
-在这个信息过载的时代，Obsidian插件的终极价值不在于功能的堆砌，而在于构建**最小可行性认知系统**。
-我的2025配置方案或许是你`认知升级`的垫脚石，但真正的知识圣殿永远建立在`持续迭代`的实践中。
+在这个信息过载的时代，Obsidian 插件的终极价值不在于功能的堆砌，而在于构建**最小可行性认知系统**。
+我的 2025 配置方案或许是你 `认知升级` 的垫脚石，但真正的知识圣殿永远建立在 `持续迭代` 的实践中。
 
 `工具革命永无止境，但认知进化自有其道`。
-愿我们都能在工具与思维的共生中，找到属于自己的`《工具论》`——毕竟，亚里士多德可想象不到，他的哲学命题会在数字时代以插件的形式重生。
+愿我们都能在工具与思维的共生中，找到属于自己的 `《工具论》`——毕竟，亚里士多德可想象不到，他的哲学命题会在数字时代以插件的形式重生。
