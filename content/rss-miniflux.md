@@ -5,8 +5,8 @@ modified: 2025-02-22 23:02:61
 title: 用 Miniflux 极简 RSS 手撕信息茧房
 aliases: [用 Miniflux 极简 RSS 手撕信息茧房]
 tags: [RSS]
-created: 2025-02-15 21:02:00
-updated: 2025-02-25 18:49:14
+created: 2025-02-15T21:02:00
+updated: 2025-02-26T22:46:41
 ---
 
 # 用 Miniflux 极简 RSS 手撕信息茧房
