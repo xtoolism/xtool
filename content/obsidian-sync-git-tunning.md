@@ -1,17 +1,12 @@
 ---
 draft: false
 title: obsidian 多端同步 - 如何解决 git 冲突
-aliases:
-  - git 多端冲突问题
-  - gitignore 文件配置
-  - obsidian 多端同步 - 如何解决 git 冲突
-  - 冲突问题
-tags:
-  - Obsidian
-  - git
+aliases: [git 多端冲突问题, gitignore 文件配置, obsidian 多端同步 - 如何解决 git 冲突, 冲突问题]
+tags: [git, Obsidian]
 created: 2025-03-05T21:22:33
-updated: 2025-03-05T23:25:15
+updated: 2025-03-06T14:33:43
 ---
+
 # obsidian 多端同步 - 如何解决 git 冲突
 目前使用 [LiveSync](https://mp.weixin.qq.com/s/Qw_4l5C56mFuJ6q85Ma_VA) 作为实时同步工具，不愧 `Live` 为名，实时性的确是挺好。但是一旦出了问题，`LiveSync` 重新同步还是很慢的。
 所以我选择用自己熟悉的 `Git` 定时备份的数据作为兜底的方案。遇到问题手机可以随时用 `Termux` 一键从 Git 获取最新的笔记；
@@ -19,6 +14,7 @@ updated: 2025-03-05T23:25:15
 在 unix 的设计思想里面，对用户透明的文本流优于二进制设计（在经济性非第一位的场景），这就是用 obsidian 最让人喜欢的地方，他没有其他软件背后那些 `高明` 的黑箱操作。所有的数据都在本地，笔记都用 Markdown 纯文本来管，出了问题用户一点都不怕。
 
 扯开了，回归主题，上次分享了 [obsidian 多端同步 - git](https://mp.weixin.qq.com/s/JOy_hmy1dIKd2C6U4joz4Q) 方案，这次继续补充下，如何解决 git 冲突，避免发生冲突；
+
 ## 问题描述
 手机端和 PC 端，有些插件的数据在同时编辑时，是会冲突的。
 比如：

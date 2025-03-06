@@ -1,15 +1,10 @@
 ---
 draft: false
 title: Obsidian 多端同步 -LiveSync
-aliases:
-  - obsidian 多端同步 -livesync
-  - Obsidian 多端同步 -LiveSync
-  - 我的同步场景
-  - 环境准备
-tags:
-  - Obsidian
+aliases: [obsidian 多端同步 -livesync, Obsidian 多端同步 -LiveSync, 我的同步场景, 环境准备]
+tags: [Obsidian]
 created: 2025-03-03T19:25:43
-updated: 2025-03-05T10:21:57
+updated: 2025-03-06T22:06:46
 ---
 ![[obsidian-sync-livesync.jpg|841x473]]
 
