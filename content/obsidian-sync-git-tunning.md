@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 title: obsidian 多端同步 - 如何解决 git 冲突
 aliases:
   - git 多端冲突问题
@@ -12,7 +12,6 @@ tags:
 created: 2025-03-05T21:22:33
 updated: 2025-03-05T23:25:15
 ---
-![[obsidian-sync-livesync.jpg|841x473]]
 # obsidian 多端同步 - 如何解决 git 冲突
 目前使用 [LiveSync](https://mp.weixin.qq.com/s/Qw_4l5C56mFuJ6q85Ma_VA) 作为实时同步工具，不愧 `Live` 为名，实时性的确是挺好。但是一旦出了问题，`LiveSync` 重新同步还是很慢的。
 所以我选择用自己熟悉的 `Git` 定时备份的数据作为兜底的方案。遇到问题手机可以随时用 `Termux` 一键从 Git 获取最新的笔记；
