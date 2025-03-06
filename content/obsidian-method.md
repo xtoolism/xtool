@@ -4,7 +4,7 @@ title: 当 Obsidian 遇见大学之道：数字时代的格物致知法
 aliases: [从格物致知到知识涌现的现代修行, 当 Obsidian 遇见大学之道：数字时代的格物致知法, 我的知识管理工作流, 日记实践流程, 知识管理流程]
 tags: [Obsidian, 个人知识库]
 created: 2025-02-25T18:37:11
-updated: 2025-02-26T11:47:09
+updated: 2025-03-03T23:06:17
 ---
 
 # 当 Obsidian 遇见大学之道：数字时代的格物致知法
@@ -51,7 +51,7 @@ graph LR
 > 流程节点
 
 ```mermaid
-flowchart LR
+flowchart 
     subgraph 知识获取
     B1[系统阅读] --> B2[碎片阅读]
     B2 --> B3[个人思考]

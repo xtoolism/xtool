@@ -5,7 +5,7 @@ title: NAS+Ollama 打造本地化 DeepSeek AI 实验室
 aliases: [NAS+Ollama 打造本地化 DeepSeek AI 实验室]
 tags: [AI, DeepSeek, NAS]
 created: 2025-02-18T22:02:00
-updated: 2025-02-26T11:47:33
+updated: 2025-03-03T23:06:07
 ---
 
 # NAS+Ollama 打造本地化 DeepSeek AI 实验室

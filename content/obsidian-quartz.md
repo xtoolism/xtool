@@ -6,7 +6,7 @@ title: 一键发布知识图谱：Obsidian 与 Quartz 的高效协作
 aliases: [Obsidian 知识图谱发布工具之 Quartz, 一键发布知识图谱：Obsidian 与 Quartz 的高效协作, 双链笔记的工程化部署：基于 Obsidian 与 Quartz 的自动化实践, 双链笔记的自动发布：Obsidian+Quartz, 双链笔记的自动发布：Obsidian+Quartz 的解决方案]
 tags: [Obsidian, 双向链接, 静态博客]
 created: 2025-02-15T21:02:00
-updated: 2025-02-26T10:49:44
+updated: 2025-03-02T19:50:42
 ---
 
 ![[obsidian-quartz-1740402084263.jpeg]]
@@ -97,7 +97,7 @@ npx quartz sync
 
 参考 [github page官方文档](https://docs.github.com/zh/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) 配置, 或者 quartz 官方文档 [hosting-github pages](https://quartz.jzhao.xyz/hosting#github-pages)
 
-也可以参考我的 `极客工具` 项目  <https://github.com/xtoolism/xtool>  ,
+也可以参考我的 `极客工具` 项目 <https://github.com/xtoolism/xtool> ,
 生成的 github page 为 <https://xtoolism.github.io/xtool>
 
 > `极客工具 XTool` 公众号的文章都是在 obsidian 本地写好，然后执行 `git commit-and-sync`，github action 会自动执行博客的部署更新
