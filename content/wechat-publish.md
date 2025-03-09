@@ -1,12 +1,12 @@
 ---
 comment: true
-draft: true
+draft: false
 modified: 2025-02-23 10:02:11
 title: 公众号发布工作流：搞定自动传图和一键排版
 aliases: [公众号发布工作流：搞定自动传图和一键排版]
 tags: [Obsidian, OSS, 公众号]
 created: 2025-02-22T10:02:00
-updated: 2025-02-26T10:50:03
+updated: 2025-03-09T14:14:48
 ---
 
 ![[wechat-publish-1740238783769.jpeg]]

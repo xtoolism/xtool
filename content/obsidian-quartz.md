@@ -6,7 +6,7 @@ title: 一键发布知识图谱：Obsidian 与 Quartz 的高效协作
 aliases: [Obsidian 知识图谱发布工具之 Quartz, 一键发布知识图谱：Obsidian 与 Quartz 的高效协作, 双链笔记的工程化部署：基于 Obsidian 与 Quartz 的自动化实践, 双链笔记的自动发布：Obsidian+Quartz, 双链笔记的自动发布：Obsidian+Quartz 的解决方案]
 tags: [Obsidian, 双向链接, 静态博客]
 created: 2025-02-15T21:02:00
-updated: 2025-03-02T19:50:42
+updated: 2025-03-09T14:16:34
 ---
 
 ![[obsidian-quartz-1740402084263.jpeg]]

@@ -4,7 +4,7 @@ title: 我的 Obsidian 插件 - 2025
 aliases: [obsidian 插件, 我的 obsidian 插件, 我的 Obsidian 插件, 我的 Obsidian 插件 - 2025]
 tags: [Obsidian]
 created: 2025-02-24T09:14:30
-updated: 2025-03-03T23:05:53
+updated: 2025-03-09T14:14:22
 ---
 
 # 我的 Obsidian 插件 - 2025
@@ -24,6 +24,7 @@ updated: 2025-03-03T23:05:53
 * 主页：[homepage](obsidian://show-plugin?id=homepage)
 * 文件夹笔记：[folder-notes](obsidian://show-plugin?id=folder-notes)
 * 文件夹显示文件数：[file-explorer-note-count](obsidian://show-plugin?id=file-explorer-note-count)
+* 文件路径复制：[show-file-path](obsidian://show-plugin?id=obsidian-show-file-path)
 * 最近编辑的文件：[recent-files-obsidian](obsidian://show-plugin?id=recent-files-obsidian)
 * 最近编辑的光标位置：[remember-cursor-position](obsidian://show-plugin?id=remember-cursor-position)
 * 脑图：[obsidian-mindmap-nextgen](https://github.com/james-tindal/obsidian-mindmap-nextgen)

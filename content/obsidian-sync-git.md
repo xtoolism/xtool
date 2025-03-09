@@ -1,15 +1,10 @@
 ---
 draft: false
 title: obsidian 多端同步 - git
-aliases:
-  - "# Obsidian 多端同步 - Git"
-  - obsidian 多端同步 - git
-  - Obsidian 多端同步 - Git
-tags:
-  - Obsidian
-  - git
+aliases: ["# Obsidian 多端同步 - Git", obsidian 多端同步 - git, Obsidian 多端同步 - Git]
+tags: [git, Obsidian]
 created: 2025-03-03T20:23:10
-updated: 2025-03-05T22:24:07
+updated: 2025-03-07T12:57:22
 ---
 
 目前 obsidian 在用 livesync 做同步，但是还是不够丝滑，上次 `Richard` 留言说 git 很好使，我 git 服务都是现成的，就手机端 termux 没有环境，今天我也来折腾下，搞不好打开新世界。

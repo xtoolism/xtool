@@ -4,11 +4,13 @@ title: 使用 frp 实现任意地点远程控制 Android 手机
 aliases: [使用 frp 实现任意地点远程控制 Android 手机]
 tags: [Android, Linux]
 created: 2025-03-05T19:02:58
-updated: 2025-03-06T22:33:27
+updated: 2025-03-06T22:44:53
 ---
 
+![[termux-frpc-image-20250306-2.png|893x502]]
+
 # 使用 frp 实现任意地点远程控制 Android 手机
-上次在 android 手机端的 `termux` 配置 git，手机在触屏上操作 cli 慢的要死，搞得我很晚回家在局域网才能弄，受不了这个效率。
+上次在 android 手机端的 [termux 配置 git](https://mp.weixin.qq.com/s/pbvLV6GQjeqPuSidE_i8zw)，手机在触屏上操作 cli 慢的要死，搞得我很晚回家在局域网才能弄，受不了这个效率。
 今天搭了个 `frp`，彻底解决在任意地点，只要有网，都能 `ssh` 连自己手机的方案。过程以 `obsidian` 记录，分享给大家。
 
 ## frp 实现原理
