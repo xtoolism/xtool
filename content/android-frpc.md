@@ -4,11 +4,11 @@ title: 如何解决 frpc 在 Android 上 DNS 解析问题
 aliases: [如何解决 frpc 在 Android 上 DNS 解析问题]
 tags: [Android, frp]
 created: 2025-03-07T12:55:48
-updated: 2025-03-09T14:12:37
+updated: 2025-03-09T21:02:00
 ---
 
 # 如何解决 frpc 在 Android 上 DNS 解析问题
-android 由于缺少 /etc/resolv.conf 文件，frpc 默认尝试使用 localhost:53 进行 DNS 解析，导致连接失败，最终通过脚本自动解析域名并将结果写入 frpc 配置文件。希望本文能帮助其他在 Android 上使用 frpc 的用户解决类似问题。
+android 由于缺少 `/etc/resolv.conf` 文件，frpc 默认尝试使用 localhost:53 进行 `DNS` 解析，导致连接失败，最终通过脚本自动解析域名并将结果写入 frpc 配置文件解决。
 
 ## 问题日志
 
@@ -50,6 +50,9 @@ echo $DOMAIN "ip is " $IP
 # 使用 sed 替换并覆盖 frpc.toml 文件
 sed "s/MY_SERVER/$IP/" frpc.toml.tmpl > frpc.toml
 
+# 杀掉已有的frpc进程
+pkill frpc
+
 # 启动sshd和frpc
 sshd && nohup ./frpc -c frpc.toml > frpc.log &
 
@@ -57,4 +60,6 @@ sshd && nohup ./frpc -c frpc.toml > frpc.log &
 tail -200f frpc.log
 ```
 
-`sh run.sh` 启动即可
+`sh run.sh` 启动即可。
+
+希望本文能帮助其他在 Android 上使用 frpc 的用户解决类似问题。

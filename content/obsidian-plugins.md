@@ -4,7 +4,7 @@ title: 我的 Obsidian 插件 - 2025
 aliases: [obsidian 插件, 我的 obsidian 插件, 我的 Obsidian 插件, 我的 Obsidian 插件 - 2025]
 tags: [Obsidian]
 created: 2025-02-24T09:14:30
-updated: 2025-03-09T14:14:22
+updated: 2025-03-09T22:10:07
 ---
 
 # 我的 Obsidian 插件 - 2025
@@ -35,8 +35,8 @@ updated: 2025-03-09T14:14:22
 * 彩色标签：[[colored-tags]]
 
 ## 知识同步
-* 实时同步：[[02Area/工具/obsidian/obsidian-livesync]]，基于 couchdb 服务
-* 数据备份：[[02Area/工具/obsidian/obsidian-git]]，基于 git 服务（github/gogos）
+* 实时同步：[[obsidian-livesync]]，基于 couchdb 服务
+* 数据备份：[[obsidian-git]]，基于 git 服务（github/gogos）
 * 微信阅读：[obsidian-weread-plugin](obsidian://show-plugin?id=obsidian-weread-plugin)，按书同步笔记和高亮
 * 知识导出：[obsidian-enhancing-export](obsidian://show-plugin?id=obsidian-enhancing-export)：基于 pandoc 导出各种格式
 * 数据导入：[obsidian-importer](obsidian://show-plugin?id=obsidian-importer)：外部笔记导入，第一次知识迁移时候能用到
@@ -53,6 +53,8 @@ updated: 2025-03-09T14:14:22
 ## AI 增强
 * AI 总结/提示词管理：[[QuickAdd]]，启用 AI Assistant
 * AI 对话/RAG 问答：[copilot](obsidian://show-plugin?id=copilot)
+* 本地大模型服务：AI Providers
+* AI 助手管理（提示词）：Local GPT
 
 ## 尝试 but 放弃的插件
 ### GTD

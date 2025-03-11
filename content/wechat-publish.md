@@ -6,7 +6,7 @@ title: 公众号发布工作流：搞定自动传图和一键排版
 aliases: [公众号发布工作流：搞定自动传图和一键排版]
 tags: [Obsidian, OSS, 公众号]
 created: 2025-02-22T10:02:00
-updated: 2025-03-09T14:14:48
+updated: 2025-03-09T18:21:19
 ---
 
 ![[wechat-publish-1740238783769.jpeg]]
