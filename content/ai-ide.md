@@ -4,9 +4,9 @@ title: AI 编程助手比较：Trae-Cline-Cursor-MarsCode-Copilot-Lingma
 aliases: [AI 编程助手比较：Trae-Cline-Cursor-MarsCode-Copilot-Lingma]
 tags: [AI, IDE]
 created: 2025-03-11T08:49:36
-updated: 2025-03-11T13:35:57
+updated: 2025-03-12T09:00:27
 ---
-![cover ai tool](https://xtoolism.oss-cn-hangzhou.aliyuncs.com/xtool/cover-ai-tool.png)
+![[cover-ai-tool.png]]
 
 # AI 编程助手比较：Trae-Cline-Cursor-MarsCode-Copilot-Lingma
 AI 编程助手各有特色：**Cursor**功能强大但价格较高；**Cline**开源灵活，支持多模型切换；**Trae**最新且免费，集成 Claude 3.7 Sonnet；**Copilot**老牌稳定，与 GitHub 深度集成；**通义灵码**和**MarsCode**易用性佳，适合中文开发者。根据需求选择，Cline+ 通义灵码 +MarsCode 组合实用，Trae 值得期待。

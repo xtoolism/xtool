@@ -1,21 +1,22 @@
 ---
 draft: false
 title: Joplin 部署体验：对比 Obsidian 的文件透明性
-aliases: 
-tags:
-  - Obsidian
+aliases: []
+tags: [Obsidian]
 created: 2025-03-03T18:48:10
-updated: 2025-03-09T20:47:33
+updated: 2025-03-12T08:59:52
 ---
 ![[cover-poc-joplin.jpg]]
-本文记录了 `Joplin Server` 的部署配置过程，包括服务端环境配置和客户端同步设置。虽然 Joplin 对 `Markdown` 的支持优于 `Evernote`，但其二进制存储格式不如 `Obsidian` 的文件系统`透明`。
+本文记录了 `Joplin Server` 的部署配置过程，包括服务端环境配置和客户端同步设置。虽然 Joplin 对 `Markdown` 的支持优于 `Evernote`，但其二进制存储格式不如 `Obsidian` 的文件系统 `透明`。
 对于需要直接访问和编辑服务端文件的用户来说，Obsidian 的文件管理方式更符合预期。
+
 # Joplin 部署体验：对比 Obsidian 的文件透明性
 
 ## 部署服务端
 官方安装文档： https://github.com/laurent22/joplin/blob/dev/packages/server/README.md
 
 docker-compose.yml
+
 ```yaml
 version: '3'
 
@@ -35,7 +36,7 @@ services:
 ```
 
 ## 部署客户端
-joplin-client下载地址： https://joplinapp.org/help/install
+joplin-client 下载地址： https://joplinapp.org/help/install
 
 配置同步
 ![[joplin-client.png]]
@@ -58,10 +59,10 @@ joplin-client下载地址： https://joplinapp.org/help/install
 
 我需求是建设自己长期知识库，数据都挂一个目录内，笔记可以直接在服务端查看和编辑。
 
-上周末在找方案，体验了下joplin server，交互和 evernote 类似，对 markdown 的支持也更好，能方便的导入导出。
-but 和 obsidian 这类相比，joplin 还是不够透明, 这样的二进制格式让用户以后只能依赖joplin，就算能导出，迁移成本也很高。
+上周末在找方案，体验了下 joplin server，交互和 evernote 类似，对 markdown 的支持也更好，能方便的导入导出。
+but 和 obsidian 这类相比，joplin 还是不够透明, 这样的二进制格式让用户以后只能依赖 joplin，就算能导出，迁移成本也很高。
 
-之前一直期望obsidian出个 web 版本的，后来就无意发现了[obsidian-docer](https://mp.weixin.qq.com/s/VECma6U5XE8YKWObov4QsQ)，可以让浏览器随时访问Obsidian 个人知识库，真是一探索就惊喜。
+之前一直期望 obsidian 出个 web 版本的，后来就无意发现了 [obsidian-docer](https://mp.weixin.qq.com/s/VECma6U5XE8YKWObov4QsQ)，可以让浏览器随时访问 Obsidian 个人知识库，真是一探索就惊喜。
 
 ## 总结
 Joplin 虽然是一个优秀的笔记系统，但它的存储方式确实不够透明。
@@ -84,4 +85,4 @@ Obsidian 的文件系统方式更符合程序员的使用习惯，因为：
 
 这些工具都提供了 Web 界面，同时保持了较好的文件透明性。
 
-在AI时代，这个`透明性`显得特别重要，我们可以用cursor之类的`ide`，让AI直接对文本文件进行修改，然后用git比较AI的修改内容，就好像你的搭档提交了一个commit让你来review。
+在 AI 时代，这个 `透明性` 显得特别重要，我们可以用 cursor 之类的 `ide`，让 AI 直接对文本文件进行修改，然后用 git 比较 AI 的修改内容，就好像你的搭档提交了一个 commit 让你来 review。

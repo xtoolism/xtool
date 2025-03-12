@@ -4,7 +4,7 @@ title: 构建智能知识库 - 知识获取：Obsidian Web Clipper 的 AI 自动
 aliases: ["### 如何使用 AI 辅助思考", 个人知识库 +AI 能做什么？, 本地知识库 - 如何使用 AI 思考, 构建智能知识库 - 知识获取：Obsidian Web Clipper 的 AI 自动化流程, 构建智能知识库：Obsidian Web Clipper 的 AI 自动化流程]
 tags: [Obsidian]
 created: 2025-03-01T20:09:37
-updated: 2025-03-02T20:54:24
+updated: 2025-03-12T09:00:01
 ---
 ![[kbase-ai-ingestion-区域擦除操作 _1_ _1_-20250302.png|1024x576]]
 
