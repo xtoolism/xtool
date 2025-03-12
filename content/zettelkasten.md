@@ -4,7 +4,7 @@ title: 从碎片到体系：Obsidian 实践卡片笔记法的底层逻辑
 aliases: [Obsidian 底层逻辑之卡片笔记法, Obsidian 的底层逻辑 - 卡片笔记写作法, 从碎片到体系：Obsidian 实践卡片笔记法的底层逻辑]
 tags: [Obsidian, zettelkasten, 个人知识库, 卡片笔记法]
 created: 2024-11-28T17:46:24
-updated: 2025-02-26T22:47:15
+updated: 2025-03-12T08:20:28
 ---
 ![[zettelkasten-image-20250226-1.png|1024x576]]
 
