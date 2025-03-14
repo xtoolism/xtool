@@ -4,7 +4,7 @@ title: Obsidian 与 Photopea 的完美结合：打造高效图片编辑工作流
 aliases: [Obsidian 与 Photopea 的完美结合：打造高效图片编辑工作流]
 tags: [Obsidian]
 created: 2025-03-08T19:43:33
-updated: 2025-03-09T14:16:12
+updated: 2025-03-13T23:28:49
 ---
 ![[obsidian-photopea-conver-photopea-20250308.png|993x557]]
 AI 生成的配图有时候需要配个文字，或者本地图片打一些马赛克，
