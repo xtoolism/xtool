@@ -4,7 +4,7 @@ title: 我的 Obsidian 插件 - 2025
 aliases: [obsidian 插件, 我的 obsidian 插件, 我的 Obsidian 插件, 我的 Obsidian 插件 - 2025]
 tags: [Obsidian]
 created: 2025-02-24T09:14:30
-updated: 2025-03-11T11:16:02
+updated: 2025-03-17T18:58:32
 ---
 
 # 我的 Obsidian 插件 - 2025
@@ -51,7 +51,7 @@ updated: 2025-03-11T11:16:02
 * 自动格式化：[linter](obsidian://show-plugin?id=obsidian-linter)
 
 ## AI 增强
-* AI 总结/提示词管理：[[QuickAdd]]，启用 AI Assistant
+* AI 总结/提示词管理：[[quikadd]]，启用 AI Assistant
 * AI 对话/RAG 问答：[copilot](obsidian://show-plugin?id=copilot)
 * 本地大模型服务：AI Providers
 * AI 助手管理（提示词）：Local GPT

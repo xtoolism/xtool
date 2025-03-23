@@ -3,7 +3,7 @@ draft: true
 title: content
 tags: []
 created: 2025-03-08T21:50:36
-updated: 2025-03-08T21:50:40
+updated: 2025-03-17T20:11:17
 ---
 
 ```folder-overview
@@ -12,10 +12,10 @@ folderPath: ""
 title: "{{folderName}} overview"
 showTitle: false
 depth: 4
+style: list
 includeTypes:
   - folder
   - markdown
-style: list
 disableFileTag: false
 sortBy: name
 sortByAsc: true

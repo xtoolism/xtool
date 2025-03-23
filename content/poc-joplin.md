@@ -1,10 +1,10 @@
 ---
 draft: false
 title: Joplin 部署体验：对比 Obsidian 的文件透明性
-aliases: []
+aliases: [Joplin 部署体验：对比 Obsidian 的文件透明性]
 tags: [Obsidian]
 created: 2025-03-03T18:48:10
-updated: 2025-03-12T08:59:52
+updated: 2025-03-16T19:32:43
 ---
 ![[cover-poc-joplin.jpg]]
 本文记录了 `Joplin Server` 的部署配置过程，包括服务端环境配置和客户端同步设置。虽然 Joplin 对 `Markdown` 的支持优于 `Evernote`，但其二进制存储格式不如 `Obsidian` 的文件系统 `透明`。
