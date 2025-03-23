@@ -1,8 +1,11 @@
 ---
 draft: false
 title: obsidian 多端同步 - git
-aliases: ["# Obsidian 多端同步 - Git", obsidian 多端同步 - git, Obsidian 多端同步 - Git]
-tags: [git, Obsidian]
+aliases:
+  - obsidian 多端同步 - git
+tags:
+  - git
+  - Obsidian
 created: 2025-03-03T20:23:10
 updated: 2025-03-07T12:57:22
 ---

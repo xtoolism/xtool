@@ -15,6 +15,6 @@ updated: 2025-03-05T21:25:31
 
 ![[index-logo.jpeg]]
 
-> WeChat
+> 微信公众号
 
 ![[index-wechat.jpeg|273x273]]
