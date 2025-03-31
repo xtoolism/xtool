@@ -15,7 +15,7 @@ OBS Studio - 开源直播和录屏工具
 下载地址：
 https://github.com/obsproject/obs-studio/releases
 
-![[file-20250330192235.jpg]]
+![[file-20250330192235.jpeg]]
 
 ## OBS 配置自动字幕
 字幕能优化用户体验，集成 AI 字幕解放人力，值得推广。
