@@ -1,10 +1,10 @@
 ---
-draft: true
-title: 构建智能知识库 - 闪念笔记的同步流程
+draft: false
+title: kbase-ingestion-idea
 aliases: [构建智能知识库 - 闪念笔记的同步流程]
 tags: [Obsidian]
 created: 2025-03-09T11:00:33
-updated: 2025-03-11T23:10:29
+updated: 2025-03-29T16:11:48
 ---
 
 ![kbase ingestion idea cover kbase ingestion idea 20250311 1|1024x576](https://xtoolism.oss-cn-hangzhou.aliyuncs.com/xtool/kbase-ingestion-idea-cover-kbase-ingestion-idea-20250311-1.png)

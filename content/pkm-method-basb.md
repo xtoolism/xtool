@@ -1,11 +1,11 @@
 ---
 draft: false
 refer: https://fortelabs.com/blog/progressive-summarization-a-practical-technique-for-designing-discoverable-notes/
-title: 渐进式总结：构建流动生长的知识体系
+title: pkm-method-basb
 aliases: [渐进式总结：构建流动生长的知识体系]
 tags: [PKM, 个人知识库, 知识管理]
 created: 2025-03-16T12:43:59
-updated: 2025-03-16T23:19:06
+updated: 2025-03-29T16:09:35
 ---
 ![[cover-pkm-method-basb.png]]
 

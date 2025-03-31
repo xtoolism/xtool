@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 title: obsidian-ai-link
 aliases: [用 AI 重塑 Obsidian 双链：知识图谱自动化生成指南]
 tags: [Obsidian, PKM, 个人知识库]
 created: 2025-03-18T21:31:46
-updated: 2025-03-19T08:58:52
+updated: 2025-03-29T16:11:00
 ---
 
 ![[cover-obsidian-ai-link.png|812x464]]

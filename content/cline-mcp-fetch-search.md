@@ -1,13 +1,12 @@
 ---
 draft: false
-title: 如何用 Cline+MCP 让知识产出效率翻倍？
-tags:
-  - AI
-  - 极客工具
+title: cline-mcp-fetch-search
+aliases: [如何用 Cline+MCP 让知识产出效率翻倍？]
+tags: [AI, 极客工具]
 created: 2025-03-13T21:39:25
-updated: 2025-03-14T00:16:23
+updated: 2025-03-29T16:05:15
 ---
-![cline mcp fetch search image 20250314 4|1058x499](files/cline_mcp_fetch_search_image_20250314_4!1058x499.png)
+![[cline_mcp_fetch_search.png]]
 Cline+MCP 打造 AI 写作工作流：通过 MCP 标准化接口，一键调用网页抓取（Fetch）与智能搜索（Tavily）， 5 分钟完成术语提炼、专业释义与千字初稿。
 用 AI 解放生产力，让创作者专注深度思考——技术工具终为人类思维服务。
 
@@ -53,7 +52,7 @@ npm install -g npx
 1. vscode 中安装 cline 插件。
 2. Api Provider 里面国外有些模型用不了的话，可以选置 `OpenAI Compatible`。
 
-![如何使用AI辅助公众号写作：Cline+MCP image 20250313 6|563x445](files/如何使用AI辅助公众号写作：Cline+MCP_image_20250313_6!563x445.png)
+![如何使用AI辅助公众号写作：Cline+MCP image 20250313 6|563x445](如何使用AI辅助公众号写作：Cline+MCP_image_20250313_6!563x445.png)
 
 我在使用国内的大模型的一站式云服务平台 `硅基流动`( https://cloud.siliconflow.cn/i/CiNvLufj) 。
 注册可输入极客工具的邀请码：CiNvLufj，送 2000 万 token。siliconflow 的模型广场里面看了下有 40 多个 AI 模型可以在线使用（有 20 多个是免费的），比如常见的 `deepseek`，`qwen` 系列。
@@ -63,7 +62,7 @@ npm install -g npx
 1. `fetch`：api 采集网页数据，需要遵循 robot 协议；
 2. `playwright`：rpa 采集网页数据，更通用，但是速度慢，相比 fetch 能力强但是稳定性低一些；
 3. `tavily`：搜索引擎 API，可有限次的免费使用
-![如何使用AI辅助公众号写作：Cline+MCP image 20250313](files/如何使用AI辅助公众号写作：Cline+MCP_image_20250313.png)
+![如何使用AI辅助公众号写作：Cline+MCP image 20250313](如何使用AI辅助公众号写作：Cline+MCP_image_20250313.png)
 
 我的参考配置
 
@@ -110,20 +109,20 @@ npm install -g npx
 ### cline 自动安装 mcp
 也可以输入提示词，让 cline 自动安装，不过容易出错，有能力的同学建议手动来，更快。
 
-![如何使用AI辅助公众号写作：Cline+MCP Screenshot from 2025 03 13 21 45 29 20250313](files/如何使用AI辅助公众号写作：Cline+MCP_Screenshot_from_2025_03_13_21_45_29_20250313.png)
+![如何使用AI辅助公众号写作：Cline+MCP Screenshot from 2025 03 13 21 45 29 20250313](如何使用AI辅助公众号写作：Cline+MCP_Screenshot_from_2025_03_13_21_45_29_20250313.png)
 
 ## AI 写作 - 流程截图
 fetch 网页采集
-![如何使用AI辅助公众号写作：Cline+MCP image 20250313 1](files/如何使用AI辅助公众号写作：Cline+MCP_image_20250313_1.png)
+![如何使用AI辅助公众号写作：Cline+MCP image 20250313 1](如何使用AI辅助公众号写作：Cline+MCP_image_20250313_1.png)
 
 fetch 网页采集结果存储
-![如何使用AI辅助公众号写作：Cline+MCP image 20250313 2](files/如何使用AI辅助公众号写作：Cline+MCP_image_20250313_2.png)
+![如何使用AI辅助公众号写作：Cline+MCP image 20250313 2](如何使用AI辅助公众号写作：Cline+MCP_image_20250313_2.png)
 
 tavily 搜索知识点
-![如何使用AI辅助公众号写作：Cline+MCP image 20250313 3](files/如何使用AI辅助公众号写作：Cline+MCP_image_20250313_3.png)
+![如何使用AI辅助公众号写作：Cline+MCP image 20250313 3](如何使用AI辅助公众号写作：Cline+MCP_image_20250313_3.png)
 
 结果存为本地 markdown
-![如何使用AI辅助公众号写作：Cline+MCP image 20250313 4](files/如何使用AI辅助公众号写作：Cline+MCP_image_20250313_4.png)
+![如何使用AI辅助公众号写作：Cline+MCP image 20250313 4](如何使用AI辅助公众号写作：Cline+MCP_image_20250313_4.png)
 
 📌 总结
 在 AI 技术狂飙的今天，`Cline+MCP` 组合像一把「极客瑞士军刀」，用标准化协议切开技术壁垒，让 `内容创作` 从 `信息泥潭` 中解放。通过 `自动采集`、`语义提炼` 与 `品牌化适配`，我们不再被重复劳动束缚，而是将精力聚焦于 `深度思考` 与 `价值传递`。

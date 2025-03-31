@@ -1,12 +1,12 @@
 ---
 draft: true
-title: 构建智能知识库 - 知识获取：Obsidian Web Clipper 的 AI 自动化流程
+title: kbase-ingestion-reading
 aliases: ["### 如何使用 AI 辅助思考", 个人知识库 +AI 能做什么？, 本地知识库 - 如何使用 AI 思考, 构建智能知识库 - 知识获取：Obsidian Web Clipper 的 AI 自动化流程, 构建智能知识库：Obsidian Web Clipper 的 AI 自动化流程]
 tags: [Obsidian]
 created: 2025-03-01T20:09:37
-updated: 2025-03-09T18:21:30
+updated: 2025-03-29T16:11:45
 ---
-![[kbase-ai-ingestion-区域擦除操作 _1_ _1_-20250302.png|1024x576]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/kbase-ai-ingestion-区域擦除操作 _1_ _1_-20250302.png|1024x576]]
 
 # 构建智能知识库 - 知识获取：Obsidian Web Clipper 的 AI 自动化流程
 本文重点讲解知识获取阶段的 `AI实践`。通过 `Obsidian Web Clipper` 和 `DeepSeek` 平台，实现自动提取 `文章标签`、`智能总结关键点`、`生成价值评价` 等功能。
@@ -52,14 +52,14 @@ obsidian web clipper 是浏览器插件的形式。
 1. 在 DeepSeek 官网开通 [DeepSeek-api服务](https://platform.deepseek.com/api_keys)，创建 1 个 API key
 2. 在 `Obsidian Web Clipper` 插件配置页，添加模型供应商，添加 `DeepSeek` 模型;
 
-![[local-kbase-ai-image-20250302-1.png|852x705]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/local-kbase-ai-image-20250302-1.png|852x705]]
 
 ### 采集内容配置
 配置解释器，定制提示词，采集时生成摘要
 
 > 建议配置 2 个模板，1 个启用 AI，1 个不启用
 
-![[local-kbase-ai-image-20250302-2.png|998x858]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/local-kbase-ai-image-20250302-2.png|998x858]]
 
 解释器上下文使用默认即可，采集特定的网站可以定制 html 选择器，减少 token 消耗
 
@@ -82,17 +82,17 @@ obsidian web clipper 是浏览器插件的形式。
 
 > 导入电脑上的配置
 
-![[Screenshot_20250302_163825_org.mozilla.firefox.jpg]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/Screenshot_20250302_163825_org.mozilla.firefox.jpg]]
 
-![[Screenshot_20250302_164017_org.mozilla.firefox.jpg]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/Screenshot_20250302_164017_org.mozilla.firefox.jpg]]
 
 > 文章高亮示例
 
-![[Screenshot_20250302_172835_org.mozilla.firefox.jpg]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/Screenshot_20250302_172835_org.mozilla.firefox.jpg]]
 
 > 采集示例
 
-![[Screenshot_20250302_175013_org.mozilla.firefox.jpg]]
+![[01Project/Blog/content/assets/kbase-ingestion-reading/Screenshot_20250302_175013_org.mozilla.firefox.jpg]]
 
 点击添加到 Obsidian，markdown 会自动存储到 vault 对应的目录。
 手机端检测到文件更新后，liveSync 插件会自动同步，然后就可以进入知识整理阶段了。
@@ -102,4 +102,3 @@ obsidian web clipper 是浏览器插件的形式。
 📌 总结
 本文聚焦知识库建设最关键的 `知识获取` 阶段，介绍如何使用 Obsidian 官方的 `Obsidian Web Clipper` 来实现数据采集和 AI 智能提取。
 之前分享过使用 [miniflux rss 阅读](https://mp.weixin.qq.com/s/eGIwReEwZMshuulsPJHEYw) 来定制自己的阅读源，我们在使用 miniflux 阅读时，也可以直接用 `Obsidian Web Clipper` 进行剪藏。
-

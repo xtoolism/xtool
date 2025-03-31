@@ -1,14 +1,14 @@
 ---
 draft: false
-title: 如何解决 frpc 在 Android 上的 DNS 解析问题
-aliases: [如何解决 frpc 在 Android 上 DNS 解析问题]
+title: android-frpc
+aliases: [如何解决 frpc 在 Android 上 DNS 解析问题, 如何解决 frpc 在 Android 上的 DNS 解析问题]
 tags: [Android, frp]
 created: 2025-03-07T12:55:48
-updated: 2025-03-12T22:40:50
+updated: 2025-03-29T16:10:04
 ---
 昨天分享的 [构建智能知识库 - 闪念笔记的同步流程](https://mp.weixin.qq.com/s/QhS1XQpCFYgFJc7GZVzJhQ)，得感谢 `大江北区` 的留言提醒，晚上将基于 git 的移动端 `闪念笔记同步机制`（双 Vault+ 双 branch）又优化了一版，手机端的 input 分支放在主分支目录内作为子模块，省掉了 merge，更舒服了。
 
-有个公众号还是挺好，能和自己用一样工具的人交流，身边用 obsidian 的朋友是真少，我都是遇到有缘的就想去安利一把-_-。
+有个公众号还是挺好，能和自己用一样工具的人交流，身边用 obsidian 的朋友是真少，我都是遇到有缘的就想去安利一把 -_-。
 
 # 如何解决 frpc 在 Android 上的 DNS 解析问题
 `android` 由于缺少 `/etc/resolv.conf` 文件，frpc 默认尝试使用 localhost:53 进行 `DNS` 解析，导致连接失败，最终通过脚本自动解析域名并将结果写入 frpc 配置文件解决。

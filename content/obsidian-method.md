@@ -1,13 +1,10 @@
 ---
 draft: false
-title: 当 Obsidian 遇见大学之道：数字时代的格物致知法
-aliases:
-  - 当 Obsidian 遇见大学之道：数字时代的格物致知法
-tags:
-  - Obsidian
-  - 个人知识库
+title: obsidian-method
+aliases: [当 Obsidian 遇见大学之道：数字时代的格物致知法]
+tags: [Obsidian, 个人知识库]
 created: 2025-02-25T18:37:11
-updated: 2025-03-09T22:27:56
+updated: 2025-03-29T16:11:03
 ---
 
 # 当 Obsidian 遇见大学之道：数字时代的格物致知法

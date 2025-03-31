@@ -2,11 +2,11 @@
 comment: true
 draft: false
 modified: 2025-02-24 09:02:86
-title: 全平台自动化发布工具避坑指南
+title: xpub
 aliases: [全平台自动化发布工具避坑指南]
 tags: [RPA, 新媒体运营, 自动化发布]
 created: 2025-02-23T13:02:00
-updated: 2025-03-09T14:14:42
+updated: 2025-03-29T16:03:47
 ---
 
 ![[xpub-1740316786665.jpeg]]

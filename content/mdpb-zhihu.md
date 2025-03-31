@@ -1,10 +1,10 @@
 ---
 draft: false
-title: 用 OpenManus 全自动发布文章到知乎
+title: mdpb-zhihu
 aliases: [用 OpenManus 全自动发布文章到知乎]
 tags: [Obsidian, 自动化发布]
 created: 2025-03-08T09:52:03
-updated: 2025-03-09T14:14:12
+updated: 2025-03-29T16:11:43
 ---
 ![[agent-metagpt-manus-cover.png|736x414]]
 今天我们用 `全自动发布文章到知乎` 这个需求，看下目前的 OpenManus 类智能体做得到吗？（想知道结果的直接看文章尾部，送上我刚调试好的自动化发布工具）

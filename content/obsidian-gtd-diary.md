@@ -1,13 +1,10 @@
 ---
 draft: false
 title: obsidian-gtd-diary
-aliases:
-  - Obsidian 日记工作流：待办、闪念与打卡的高效管理
-tags:
-  - Obsidian
-  - 知识管理
+aliases: [Obsidian 日记工作流：待办、闪念与打卡的高效管理]
+tags: [Obsidian, 知识管理]
 created: 2025-03-19T09:13:16
-updated: 2025-03-20T07:44:31
+updated: 2025-03-29T16:08:05
 ---
 ![[cover-obsidian-gtd-diary.png|1080x617]]
 今天分享一个超实用的 Obsidian 日记工作流，帮你搞定待办、闪念和打卡。通过插件和自动化脚本，未完成的待办可以自动迁移到新的一天，再也不用手动复制粘贴了。日记模板还能帮你记录每天的思考、挑战和收获，顺便跟踪习惯打卡。简单几步，让你的日记更高效、更有条理。
