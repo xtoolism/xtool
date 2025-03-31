@@ -135,7 +135,7 @@ find ./  -type f \( -name "*.jpeg" -o -name "*.png" -o -name "*.jpg" \) | wc -l
 ![[file-20250329160217.mp4]]
 
 #### 插件配置和使用教程
-![[file-20250329153500.mp4]]
+![[obsidian-attachment.mp4]]
 **演示内容**
 1. 插件配置
 	1. custom-attachment-location
