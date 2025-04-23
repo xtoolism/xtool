@@ -1,10 +1,10 @@
 ---
 draft: false
-title: 我的 Obsidian 插件 - 2025
+title: obsidian-plugins
 aliases: [obsidian 插件, 我的 obsidian 插件, 我的 Obsidian 插件, 我的 Obsidian 插件 - 2025]
 tags: [Obsidian]
 created: 2025-02-24T09:14:30
-updated: 2025-03-17T18:58:32
+updated: 2025-04-08T07:04:28
 ---
 
 # 我的 Obsidian 插件 - 2025

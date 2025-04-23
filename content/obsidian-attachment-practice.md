@@ -5,7 +5,7 @@ title: obsidian-attachment-practice
 aliases: [obsidian 附件管理最佳实践]
 tags: [Obsidian, PKM]
 created: 2025-03-29T07:56:01
-updated: 2025-03-29T23:22:50
+updated: 2025-04-06T11:53:27
 ---
 ![[cover-obsidian-attachment-practice.jpeg]]
 你是否为 Obsidian 中越积越乱的图片附件头疼？从全网截图到本地素材，附件管理失控后连自己都找不到关联文件。

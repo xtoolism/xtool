@@ -4,7 +4,7 @@ title: obsidian-gtd-diary
 aliases: [Obsidian 日记工作流：待办、闪念与打卡的高效管理]
 tags: [Obsidian, 知识管理]
 created: 2025-03-19T09:13:16
-updated: 2025-03-29T16:08:05
+updated: 2025-04-11T09:01:23
 ---
 ![[cover-obsidian-gtd-diary.png|1080x617]]
 今天分享一个超实用的 Obsidian 日记工作流，帮你搞定待办、闪念和打卡。通过插件和自动化脚本，未完成的待办可以自动迁移到新的一天，再也不用手动复制粘贴了。日记模板还能帮你记录每天的思考、挑战和收获，顺便跟踪习惯打卡。简单几步，让你的日记更高效、更有条理。
@@ -76,6 +76,7 @@ yesterday-tasks-undo.md
 
 ```bash
 <%*
+const taskRegex = /[-|\*] \[ \] .*?#task.*?($|\n)/g; // 匹配未完成的 #task 任务
 // 工具函数：动态生成日记文件路径
 function getDailyNotePath(dateStr) {
   const [year, month, day] = dateStr.split("-");
@@ -95,7 +96,6 @@ async function readFileContent(filePath) {
 
 // 步骤2：提取未完成的 #task 任务
 function extractUnfinishedTasks(content) {
-  const taskRegex = /- \[ \] .*?#task.*?\n/g; // 匹配未完成的 #task 任务
   return content.match(taskRegex) || [];
 }
 
@@ -113,7 +113,7 @@ async function appendTasksToTodayFile(todayFilePath, tasks) {
   const file = app.vault.getAbstractFileByPath(todayFilePath);
   if (file) {
     const currentContent = await app.vault.read(file);
-    const newContent = currentContent + "\n" + tasks.join(""); // 在文件末尾追加任务
+    const newContent = currentContent + tasks.join(""); // 在文件末尾追加任务
     await app.vault.modify(file, newContent);
     console.log("✅ 未完成任务已追加到今日文件中。");
   } else {
@@ -130,7 +130,7 @@ async function removeTasksFromYesterdayFile(yesterdayFilePath, tasks) {
     let yesterdayContent = await app.vault.read(targetFile);
 
     // 使用正则替换删除未完成任务
-    const updatedContent = yesterdayContent.replace(/- \[ \] .*?#task.*?\n/g, "");
+    const updatedContent = yesterdayContent.replace(taskRegex, "");
     await app.vault.modify(targetFile, updatedContent);
     console.log("✅ 未完成任务已从昨日文件中删除。");
   } catch (error) {
@@ -139,19 +139,19 @@ async function removeTasksFromYesterdayFile(yesterdayFilePath, tasks) {
 }
 
 // 主函数：执行任务迁移逻辑
-async function moveUndo() {
+async function migrateUnfinishedTasks() {
   // 获取昨日和今日的文件路径
   const todayDate = tp.date.now("yyyy-MM-DD");
   const yesterdayDate = tp.date.yesterday("yyyy-MM-DD");
   const yesterdayFilePath = getDailyNotePath(yesterdayDate);
   const todayFilePath = getDailyNotePath(todayDate);
-
+  console.log(`昨天文件：${yesterdayFilePath}`);
   // 读取昨日文件内容
   const yesterdayContent = await readFileContent(yesterdayFilePath);
 
   // 提取未完成的 #task 任务
   const unfinishedTasks = extractUnfinishedTasks(yesterdayContent);
-
+  console.log(`昨天未完成：${unfinishedTasks}`);
   // 将任务追加到今日文件中
   await appendTasksToTodayFile(todayFilePath, unfinishedTasks);
 
@@ -160,7 +160,7 @@ async function moveUndo() {
 }
 
 // 执行主函数
-await moveUndo();
+await migrateUnfinishedTasks();
 %>
 ```
 

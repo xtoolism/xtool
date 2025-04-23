@@ -4,11 +4,14 @@ title: tool-obs-auto-subtitle
 aliases: [OBS Studio 桌面录屏教程：自动字幕 + 背景音乐]
 tags: [极客工具]
 created: 2025-03-30T17:33:13
-updated: 2025-03-30T22:11:58
+updated: 2025-04-06T10:58:07
 ---
+
+![[tool-obs-auto-subtitle-image-20250406.png|1024x436]]
 
 # OBS Studio 桌面录屏教程：自动字幕 + 背景音乐
 用 OBS Studio 录屏时，如何轻松添加自动字幕和背景音乐？这款开源插件支持阿里云、讯飞、华为云的实时语音转文字，3 步配置即可实现专业级字幕效果。搭配背景音乐调节技巧，让你的视频质感瞬间提升！（文末附手把手实操教程）
+
 ## OBS Studio 录屏工具
 OBS Studio - 开源直播和录屏工具
 项目地址： https://obsproject.com

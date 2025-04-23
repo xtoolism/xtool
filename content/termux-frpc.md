@@ -1,10 +1,10 @@
 ---
 draft: false
-title: 使用 frp 实现任意地点远程控制 Android 手机
+title: termux-frpc
 aliases: [使用 frp 实现任意地点远程控制 Android 手机]
 tags: [Android, Linux]
 created: 2025-03-05T19:02:58
-updated: 2025-03-06T22:44:53
+updated: 2025-04-15T17:00:41
 ---
 
 ![[termux-frpc-image-20250306-2.png|893x502]]
