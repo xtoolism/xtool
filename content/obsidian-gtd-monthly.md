@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 title: obsidian-gtd-monthly
 aliases: [obsidian 月总结工作流, 轻松做好月总结：OKR + Obsidian 自动化工作流]
 tags: [Obsidian, PKM]
 created: 2025-04-01T08:13:21
-updated: 2025-04-11T08:49:03
+updated: 2025-05-10T09:59:37
 ---
 ![[file-20250411084900.png]]
 如何用工程师思维实现高效目标管理？本文揭秘基于 OKR 方法论与 Obsidian 的月总结自动化流程，通过拆解关键结果、闪念捕捉、数据视图联动，实现从日记录到月复盘的全链路追踪，让个人成长可视化、可量化、可持续迭代。

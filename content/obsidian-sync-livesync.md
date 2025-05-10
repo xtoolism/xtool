@@ -4,7 +4,7 @@ title: obsidian-sync-livesync
 aliases: [obsidian 多端同步 -livesync, Obsidian 多端同步 -LiveSync, 我的同步场景, 环境准备]
 tags: [Obsidian]
 created: 2025-03-03T19:25:43
-updated: 2025-03-29T16:09:05
+updated: 2025-05-10T09:59:38
 ---
 ![[obsidian-sync-livesync.jpg|841x473]]
 

@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 title: obsidian-plugin-install
 aliases: [Obsidian 社区插件安装终极指南：一键解决 GitHub 访问卡顿]
 tags: [Obsidian]
 created: 2025-03-30T15:46:06
-updated: 2025-04-04T12:55:50
+updated: 2025-05-10T09:59:37
 ---
 ![[obsidian-plugin-install-image-20250404.png|1024x436]]
 
@@ -76,7 +76,6 @@ DevSidecar 原理是通过本地代理的方式将 https 请求代理到一些�
 windows-x64: https://dgithub.xyz/docmirror/dev-sidecar/releases/download/v2.0.0.1/DevSidecar-2.0.0.1-windows-x64.exe
 
  https://dgithub.xyz/jellyfin/jellyfin-android/releases/download/v2.6.2/jellyfin-android-v2.6.2-libre-debug.apk
-
 
 > 其他环境的读者应该都有上网方法就不提供了😜
 

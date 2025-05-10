@@ -4,7 +4,7 @@ title: obsidian-sync-git-tunning
 aliases: [git 多端冲突问题, gitignore 文件配置, obsidian 多端同步 - 如何解决 git 冲突, 冲突问题]
 tags: [git, Obsidian]
 created: 2025-03-05T21:22:33
-updated: 2025-04-15T17:03:41
+updated: 2025-05-10T09:59:38
 ---
 
 # obsidian 多端同步 - 如何解决 git 冲突

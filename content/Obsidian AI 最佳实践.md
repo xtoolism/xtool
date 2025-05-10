@@ -1,11 +1,11 @@
 ---
-draft: true
+draft: false
 model: openrouter@deepseek/deepseek-chat-v3-0324
 title: Obsidian AI 最佳实践
 aliases: [Obsidian AI 最佳实践：OpenRouter 零门槛整合 90+ 大模型]
-tags: []
+tags: [AI, Obsidian, PKM_工具, 工具, 知识管理]
 created: 2025-04-19T12:19:09
-updated: 2025-04-19T21:25:08
+updated: 2025-05-10T10:07:40
 ---
 ![[Obsidian AI 最佳实践：OpenRouter 零门槛整合 90+ 大模型-20250419191458.png]]
 还在手动切换 AI 平台处理笔记？`Obsidian+OpenRouter` 黄金组合帮你本地无缝调用 Claude、GPT-4 等 93+ 大模型。5 分钟配置即可实现：跨模型工作流自动衔接、可视化参数调节、`免费额度` 薅羊毛，还能 `绕过地域限制`。

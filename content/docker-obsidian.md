@@ -1,10 +1,10 @@
 ---
 draft: false
 title: docker-obsidian
-aliases: [obsidian web 部署, obsidian-web 分析, 分析, 方案分析]
+aliases: [obsidian-web 分析]
 tags: []
 created: 2025-03-09T11:46:46
-updated: 2025-03-29T16:12:10
+updated: 2025-05-10T09:59:36
 ---
 还在为跨平台同步笔记头疼吗？试试 Docker-Obsidian！基于 kasmVNC 远程桌面技术，支持 WebDAV 协议，部署简单，中文友好，让你在浏览器中也能享受与本地 Obsidian 几乎一致的流畅体验。无论是 Windows、Mac 还是 Linux，只需一个 Docker 命令，你的知识库就能随时随地 " 在线 "。
 

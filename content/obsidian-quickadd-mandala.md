@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 title: obsidian-quickadd-mandala
 aliases: [Quickadd 极简工作流：让曼陀罗思考法落地 Obsidian]
 tags: []
 created: 2025-03-28T07:47:34
-updated: 2025-03-28T18:25:32
+updated: 2025-05-10T09:59:38
 ---
 ![[obsidian-quickadd-mandala-image-20250328.png|1024x436]]
 曼陀罗思考法以九宫格为认知脚手架，融合 `水平发散` 与 `垂直深入` 的双重思维模式。

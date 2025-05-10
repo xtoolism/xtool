@@ -4,7 +4,7 @@ title: obsidian-gtd-weekly
 aliases: [轻松做好周总结：PDCA 循环 + Obsidian 自动化工作流]
 tags: [Obsidian, 知识管理]
 created: 2025-03-20T08:39:02
-updated: 2025-03-29T16:08:28
+updated: 2025-05-10T09:59:37
 ---
 ![[obsidian-gtd-weekly-image-20250323-4.png|872x371]]
 每周用 10 分钟完成深度复盘？这套基于 PDCA 循环的 Obsidian 周总结工作流，通过 dataview 脚本自动聚合日记中的 GDG 思考和待办数据，生成可视化周报后自动归档原始日记。告别 3650 个散落文件，用自动化实现知识沉淀，让每周成长清晰可见。

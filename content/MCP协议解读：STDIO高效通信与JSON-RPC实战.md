@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 title: MCP协议解读：STDIO高效通信与JSON-RPC实战
 aliases: [MCP 协议解读：STDIO 高效通信与 JSON-RPC 实战]
 tags: []
 created: 2025-04-02T08:13:33
-updated: 2025-04-03T07:54:19
+updated: 2025-05-10T09:59:36
 ---
 ![[cover-mcp-stdio.png|1024x436]]
 本文深度解析 MCP 协议的传输机制与消息格式，涵盖 stdio、SSE 及自定义传输方式，剖析 JSON-RPC 2.0 的请求、响应与通知设计。

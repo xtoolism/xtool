@@ -4,7 +4,7 @@ title: obsidian-plugins
 aliases: [obsidian 插件, 我的 obsidian 插件, 我的 Obsidian 插件, 我的 Obsidian 插件 - 2025]
 tags: [Obsidian]
 created: 2025-02-24T09:14:30
-updated: 2025-04-08T07:04:28
+updated: 2025-05-10T09:59:37
 ---
 
 # 我的 Obsidian 插件 - 2025

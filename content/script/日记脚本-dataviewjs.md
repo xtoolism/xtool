@@ -1,3 +1,14 @@
+---
+draft: true
+title: 日记脚本-dataviewjs
+aliases: [日记脚本 -dataviewjs]
+tags: []
+created: 2025-05-06T09:20:11
+updated: 2025-05-10T09:59:41
+---
+
+# 日记脚本 -dataviewjs
+
 ```js
 // 获取当前文件中推断的年份与月份
 function getYearAndMonth() {

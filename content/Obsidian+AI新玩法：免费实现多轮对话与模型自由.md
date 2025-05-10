@@ -1,10 +1,10 @@
 ---
-draft: true
+draft: false
 title: Obsidian+AI新玩法：免费实现多轮对话与模型自由
 aliases: ["**Obsidian+AI 新玩法：免费实现多轮对话与模型自由**", Obsidian+AI 新玩法：免费实现多轮对话与模型自由]
 tags: []
 created: 2025-04-22T07:11:09
-updated: 2025-04-22T08:00:22
+updated: 2025-05-10T09:59:36
 ---
 ![[Obsidian+AI新玩法：免费实现多轮对话与模型自由-20250422080022.png]]
 
