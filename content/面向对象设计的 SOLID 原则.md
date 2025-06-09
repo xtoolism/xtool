@@ -2,7 +2,7 @@
 title: 面向对象设计的 SOLID 原则
 tags: [card]
 created: 2025-06-07T13:14:14
-updated: 2025-06-09T08:17:23
+updated: 2025-06-09T18:56:24
 ---
 
 # 面向对象设计的 SOLID 原则
@@ -10,18 +10,23 @@ updated: 2025-06-09T08:17:23
 SOLID 原则：单一职责原则、开闭原则、里氏替换原则、接口隔离原则、依赖倒置原则
 
 ## 单一职责原则 (Single Responsibility Principle, SRP)
+
 每个类应该只有一个引起它变化的原因，即一个类只负责一项职责。
 
 ## 开闭原则 (Open-Closed Principle, OCP)
+
 软件实体（类、模块、函数等）应该对扩展开放，对修改关闭。
 
 ## 里氏替换原则 (Liskov Substitution Principle, LSP)
+
 子类型必须能够替换它们的基类型，而不影响程序的正确性。
 
 ## 接口隔离原则 (Interface Segregation Principle, ISP)
+
 客户端不应该被迫依赖它们不使用的接口，应该将臃肿的接口拆分成更小更具体的接口。
 
 ## 依赖倒置原则 (Dependency Inversion Principle, DIP)
+
 高层模块不应该依赖低层模块，两者都应该依赖抽象；抽象不应该依赖细节，细节应该依赖抽象。
 
 用一个实际的案例，贯穿解释 SOLID 原则
@@ -29,6 +34,7 @@ SOLID 原则：单一职责原则、开闭原则、里氏替换原则、接口�
 # 电商订单系统案例解析 SOLID 原则
 
 ## 案例背景
+
 我们设计一个电商平台的订单处理系统，通过这个案例来展示如何应用 SOLID 原则。
 
 ## 1. 单一职责原则应用

@@ -1,12 +1,11 @@
 ---
-title: 概念笔记
-aliases: [概念笔记]
+title: 常青笔记与 Zettelkasten 的异同
 tags: [card]
 created: 2025-06-09T10:05:57
-updated: 2025-06-09T10:06:04
+updated: 2025-06-09T18:56:09
 ---
 
-# 概念笔记
+# 常青笔记与 Zettelkasten 的异同
 
 ## 定义
 
@@ -15,6 +14,7 @@ updated: 2025-06-09T10:06:04
 ### what
 
 ### why
+
 ### how
 
 ## 原理
