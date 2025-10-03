@@ -3,7 +3,7 @@ title: 用 OpenManus 全自动发布文章到知乎
 aliases: [用 OpenManus 全自动发布文章到知乎]
 tags: [Obsidian, 自动化发布]
 created: 2025-03-08T09:52:03
-updated: 2025-10-02T11:13:39
+updated: 2025-10-03T20:38:16
 draft: false
 ---
 ![[file-20251002111806218.png|736x414]]

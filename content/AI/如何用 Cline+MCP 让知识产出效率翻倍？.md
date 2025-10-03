@@ -3,7 +3,7 @@ title: 如何用 Cline+MCP 让知识产出效率翻倍？
 aliases: [如何用 Cline+MCP 让知识产出效率翻倍？]
 tags: [AI, 极客工具]
 created: 2025-03-13T21:39:25
-updated: 2025-10-02T10:39:46
+updated: 2025-10-03T20:37:51
 draft: false
 ---
 ![[file-20251002111758598.png]]

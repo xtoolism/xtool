@@ -2,7 +2,7 @@
 title: 公众号封面设计：AI 大模型生成测评
 tags: []
 created: 2025-04-15T22:12:59
-updated: 2025-05-16T21:42:14
+updated: 2025-10-03T20:41:31
 draft: false
 ---
 ![[file-20251002111907163.jpeg]]

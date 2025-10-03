@@ -4,7 +4,7 @@ title: 秒懂 AI 知识库：语义搜索＋最丝滑插件实用指南
 description: Obsidian 也能实现类 ChatGPT 的语义搜索？本文手把手讲清原理与插件选型，实测对比 Copilot 与 infio-copilot，揭秘个人 AI 知识库的最丝滑体验，附全图演示＋配置技巧，助你高效构建第二大脑。
 tags: [AI]
 created: 2025-06-20T07:47:09
-updated: 2025-10-02T12:00:27
+updated: 2025-10-03T20:38:24
 ---
 ![[file-20251002111807363.png]]
 

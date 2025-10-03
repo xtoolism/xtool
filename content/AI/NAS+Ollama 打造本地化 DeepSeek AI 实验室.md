@@ -3,7 +3,7 @@ comment: true
 title: NAS+Ollama 打造本地化 DeepSeek AI 实验室
 tags: [AI, DeepSeek, NAS]
 created: 2025-02-18T22:02:00
-updated: 2025-07-17T18:32:58
+updated: 2025-10-03T20:41:04
 draft: false
 ---
 
@@ -90,13 +90,10 @@ services:
 ```
 
 安装好后，在登录 open-webui (<http://localhost:18080>) ,在设置里面安装模型，然后就可以测试下 AI 的弱智指数
-![[ollama-1739891610925.jpeg]]
 
 测试 ： 被门夹过的核桃，还能补脑吗？
 
 > 1.5b 幻觉太严重，7b 基本能玩玩，不会错的太离谱
-
-![[ollama-1739891003391.jpeg]]
 
 ## 🧙 老司机骚操作
 
@@ -158,7 +155,6 @@ nomic-embed-text:latest    0a109f422b47    274 MB    12 months ago
 ```
 
 也可以自己接入第三方厂商大模型的 api key （得有 http_proxy 代理）
-![[ollama-doggy.gif]]
 
 ### 测试模型
 
@@ -199,7 +195,6 @@ curl http://localhost:11434/api/generate -d '{
 ### NAS 配置
 
 附上我捡垃圾配的 NAS，系统使用的是 truenas scale，底层上是基于 k3s，一个 k8s 的简化版，强大的一塌糊涂。开通公网后，搞个免费域名，就可以作为自己长期的私有云服务器了。
-![[ollama-1739895151015.jpeg]]
 
 一张省电的上古显卡 : 微星 GTX 1650 D6 万图师 -4G 显存 ，TDP 只有 75W
 
